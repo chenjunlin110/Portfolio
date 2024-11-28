@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import comingSoonImage from "../../Assets/Projects/coming_soon.png";
+
 
 function Projects() {
   return (
@@ -17,7 +19,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://via.placeholder.com/300" // Placeholder image
+              imgPath={comingSoonImage} // Placeholder image
               isBlog={false}
               title="Project Placeholder"
               description="This is a placeholder for future projects. Details will be updated soon."
@@ -27,7 +29,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://via.placeholder.com/300" // Placeholder image
+              imgPath= {comingSoonImage} // Placeholder image
               isBlog={false}
               title="Project Placeholder"
               description="This is a placeholder for future projects. Details will be updated soon."
@@ -37,7 +39,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://via.placeholder.com/300" // Placeholder image
+              imgPath={comingSoonImage} // Placeholder image
               isBlog={false}
               title="Project Placeholder"
               description="This is a placeholder for future projects. Details will be updated soon."
