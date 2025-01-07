@@ -96,7 +96,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://your-blog-link-here" // Replace with your blog link
+                href="https://junlin8.wordpress.com/?_gl=1*647urg*_gcl_au*NjYyNTMxMDM3LjE3MzU3MTE2NTY" // Replace with your blog link
                 target="_blank"
                 rel="noreferrer"
               >
