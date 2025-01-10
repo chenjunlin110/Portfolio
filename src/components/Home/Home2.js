@@ -71,16 +71,6 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/" // Update with your Twitter profile URL
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
                   href="https://www.linkedin.com/in/junlin-chen-4716b8321/" // Update with your LinkedIn profile URL
                   target="_blank"
                   rel="noreferrer"
