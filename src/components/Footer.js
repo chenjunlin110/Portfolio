@@ -33,16 +33,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com" // Replace with your Twitter handle
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/junlin-chen-4716b8321/" // Replace with your LinkedIn profile link
                 style={{ color: "white" }}
                 target="_blank" 
@@ -53,7 +43,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/" // Replace with your Instagram handle
+                href="https://www.instagram.com/chenjunlin110/" // Replace with your Instagram handle
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

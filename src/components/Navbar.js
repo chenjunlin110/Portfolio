@@ -40,7 +40,7 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           {/* You can add text or remove this container */}
           <span style={{ fontSize: "1.5rem", fontWeight: "bold" }}>
-            Portfolio
+            Junlin's Portfolio
           </span>
         </Navbar.Brand>
         <Navbar.Toggle

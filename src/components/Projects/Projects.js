@@ -4,7 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import comingSoonImage from "../../Assets/Projects/coming_soon.png";
 import cs112 from "../../Assets/Projects/cs112.png";
-
+import simpleCalculator from "../../Assets/Projects/simpleCalculator.png"
+import todolist from "../../Assets/Projects/todolist.png"
 
 function Projects() {
   return (
@@ -25,27 +26,26 @@ function Projects() {
               title="CS112: Data Structures"
               description="This is a cousework project constains of 10 assignments. The assignments are based on the topics of data structures and algorithms."
               ghLink="https://github.com/chenjunlin110/CS112"
-              demoLink="#"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath= {comingSoonImage} // Placeholder image
+              imgPath= {simpleCalculator} // Placeholder image
               isBlog={false}
-              title="Project Placeholder"
-              description="This is a placeholder for future projects. Details will be updated soon."
-              ghLink="#"
-              demoLink="#"
+              title="A simple Calculator"
+              description="This is a simple Calculator done by purely HTML, CSS and JS."
+              ghLink="https://github.com/chenjunlin110/simple-calculator"
+
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={comingSoonImage} // Placeholder image
+              imgPath={todolist} // Placeholder image
               isBlog={false}
-              title="Project Placeholder"
-              description="This is a placeholder for future projects. Details will be updated soon."
-              ghLink="#"
-              demoLink="#"
+              title="TodoList"
+              description="A responsive and interactive TodoList web application built using React.js. It allows users to add, toggle, delete tasks, and filter them by their status (All, Active, or Completed). Styled with modern CSS for a clean and intuitive user experience."
+              ghLink="https://github.com/chenjunlin110/Todo-list" // Replace with the actual GitHub link if available
+              demoLink="" // Replace with the actual demo link if available
             />
           </Col>
         </Row>
