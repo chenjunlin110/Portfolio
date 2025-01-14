@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg"; // Replace this with your avatar image path
+import backgroundMusic from "../../Assets/background-music.mp3"; // Import the background music
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -10,6 +11,20 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const audioRef = useRef(null);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handleToggleMusic = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -48,7 +63,13 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                className="img-fluid"
+                alt="avatar"
+                onClick={handleToggleMusic} // Add toggle play/stop music event
+                style={{ cursor: "pointer" }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -93,7 +114,9 @@ function Home2() {
           </Col>
         </Row>
       </Container>
+      <audio ref={audioRef} src={backgroundMusic} />
     </Container>
   );
 }
+
 export default Home2;
