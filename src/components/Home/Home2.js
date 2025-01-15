@@ -71,9 +71,33 @@ function Home2() {
                 style={{ cursor: "pointer" }}
               />
             </Tilt>
-            <p style={{ marginTop: "10px", fontWeight: "bold", color: "white" }}>
-              👆 Click Me to Play/Stop Music!
-            </p>
+            <p
+  style={{
+    marginTop: "10px",
+    padding: "10px 15px",
+    fontWeight: "bold",
+    color: "white",
+    backgroundColor: "#6c63ff", // Background color for the bubble
+    borderRadius: "15px", // Rounded corners
+    display: "inline-block", // Adjusts the bubble size to the text
+    position: "relative", // Needed for the arrow
+  }}
+>
+  👆 Try 恋愛サーキュレーション, it is one of my favorite anime's songs!
+  <span
+    style={{
+      content: " ",
+      position: "absolute",
+      bottom: "-10px", // Position the arrow below the bubble
+      left: "20px", // Position the arrow horizontally
+      width: "0",
+      height: "0",
+      borderLeft: "10px solid transparent", // Left side of the triangle
+      borderRight: "10px solid transparent", // Right side of the triangle
+      borderTop: "10px solid #6c63ff", // Color matches bubble background
+    }}
+  ></span>
+</p>
           </Col>
         </Row>
         <Row>
