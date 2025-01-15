@@ -61,7 +61,7 @@ function Home2() {
               like <b className="purple">Next.js</b>.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" style={{ textAlign: "center" }}>
             <Tilt>
               <img
                 src={myImg}
@@ -71,6 +71,9 @@ function Home2() {
                 style={{ cursor: "pointer" }}
               />
             </Tilt>
+            <p style={{ marginTop: "10px", fontWeight: "bold", color: "white" }}>
+              👆 Click Me to Play/Stop Music!
+            </p>
           </Col>
         </Row>
         <Row>
