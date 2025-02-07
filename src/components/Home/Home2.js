@@ -83,7 +83,7 @@ function Home2() {
     position: "relative", // Needed for the arrow
   }}
 >
-  👆 Try 恋愛サーキュレーション, it is one of my favorite anime's songs!
+  Most people can't pronounce my name correctly, so please click the Avatar. 👆
   <span
     style={{
       content: " ",
